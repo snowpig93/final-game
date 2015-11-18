@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js"></script>
+        <title> Christmas Trick or Treats</title>
+    </head>
+        <audio id="hitEffect">
+            <source src="http://animatedsoundworks.com:8001/jsaResources/drum-samples/LINN/snare.wav" type="audio/wav">
+        </audio>
+    <body>
+        <h3><b><u>Christmas Trick or Treats</b></u> </h3> 
+
+        <div id="bgmusic">
+            <audio controls loop autoplay>
+            <source src="/Users/zhaoyingxue/Desktop/Emitter/www/resources/halloween.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        
+        <center><p>
+        <h4><b>Difficulty Level</b>
+        <br>
+        <input id="Easy" type="radio" name="difficulty" value="easy"> Easy
+        <input id="Normal" type="radio" name="difficulty" value="normal"> Normal
+        <input id="Hard" type="radio" name="difficulty" value="hard"> Hard
+        </h4>
+        </p></center>
+        <br>    
+
+        <div id="mySVGCanvas"> </div>
+
+
+    </body>
+</html>
+

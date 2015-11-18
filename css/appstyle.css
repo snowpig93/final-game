@@ -1,0 +1,51 @@
+html{
+  background-color:black;
+  background-image: url("http://images4.alphacoders.com/168/16898.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+h3{color:white;
+  height: 15%;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+}
+
+h4{color:white;
+  height: 15%;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-color:white;
+}
+
+p{color: white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 15px;
+
+}
+
+
+input[type="radio"] {
+  color:white;
+}
+
+#mySVGCanvas {
+  position: absolute;
+  left:60px;
+  border: 1px;
+  border-radius:30px;
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+
+}
+
+#bgmusic{
+  text-align: center;
+  top: 100px;
+}
+
